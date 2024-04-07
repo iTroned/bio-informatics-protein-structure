@@ -10,6 +10,8 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pandas as pd
 import matplotlib.pyplot as plt
+import sys
+import os
 
 max_length = 5037 # The length it has been trained up on
 
@@ -17,12 +19,22 @@ output_mapping = {'C': 1, 'H': 2, 'E': 3} # Mapping between outputs and their gi
 reversed_mapping = {1: 'C', 2: 'H', 3: 'E'}
 
 # Load tokenizer
-with open('tokenizer.pickle', 'rb') as handle:
-    tokenizer = pickle.load(handle)
+if getattr(sys, 'frozen', False):
+    with open(os.path.join(sys._MEIPASS, "src/tokenizer.pickle"), 'rb') as handle:
+        tokenizer = pickle.load(handle)
+else:
+    with open('src/tokenizer.pickle', 'rb') as handle:
+        tokenizer = pickle.load(handle)
+
 
 print("[INFO] Starting to load Trained Model")
 
-model = tf.keras.models.load_model('trained_model.keras')
+if getattr(sys, 'frozen', False):
+    model = tf.keras.models.load_model(os.path.join(sys._MEIPASS, 'src/trained_model.keras'))
+
+else:
+    model = tf.keras.models.load_model('src/trained_model.keras')
+
 
 print("[INFO] Loaded Trained Model")
 
