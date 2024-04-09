@@ -31,6 +31,8 @@ To use the program is very straight forward:
 5. Output is the secondary structure prediction: C: Random coil, E: Beta sheet and H: Alpha Helix.
 
 ## Access the notebook:
+DISCLAIMER: The dataset used is too big for Github. Please download it from here: https://www.kaggle.com/datasets/alfrandom/protein-secondary-structure?select=2018-06-06-ss.cleaned.csv
+
 1. To access the notebook files it is recommended to set up your own dependency.
 2. Download the ZIP file from Github.
 3. Install anaconda: https://docs.anaconda.com/free/anaconda/install/windows/
