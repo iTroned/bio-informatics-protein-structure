@@ -1,6 +1,10 @@
 # Bio-informatics: Predicting secondary structure of a protein.
 ## Information 
 Unfortunately, the program will perform different on different systems. When launching the software for the first time, it will take some time as it installs all the needed the dependencies for the program to use the model for predictions.
+
+## About the files:
+    main.py: creation of the software application
+    data_analyzis.ipynb: notebook with some data analysis and foundation for model training
 ### Known bugs:
     The first time the user presses predict, the program will freeze. 
     This is because the model is initialized, please be patient and not close the program.
