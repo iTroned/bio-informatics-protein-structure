@@ -16,7 +16,7 @@ Unfortunately, the program will perform different on different systems. When lau
     If no graphics card is found, the software will default and use the CPU. However, all predictions will take longer on the CPU.
     
 ## Download and use the program:
-Installation guide: https://www.youtube.com/watch?v=_ZsMhehQh8I
+Installation guide:
 
 [![Installation Guide](https://img.youtube.com/vi/_ZsMhehQh8I/0.jpg)](https://www.youtube.com/watch?v=_ZsMhehQh8I)
 
