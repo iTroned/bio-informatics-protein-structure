@@ -52,4 +52,24 @@ DISCLAIMER: The dataset used is too big for Github. Please download it from here
 
 ![image](https://github.com/iTroned/bio-informatics-protein-structure/assets/73116702/3833a937-352a-4eba-81d3-07886f2c518a)
 
+
+ ## Dependencies
+ | Library | Version |
+ |---------|---------|
+ | python | 3.9.19 |
+ | numpy | 1.26.4 |
+ | tensorflow | 2.10.1 |
+ | pandas | 2.2.1 |
+ | matplotlib | 3.8.3 |
+ | pickleshare | 0.7.5 |
+ | nltk | 3.8.1 | 
+ | scikit-learn | 1.4.1 |
+ | gensim | 4.3.2 |
+ | seaborn | 0.13.2 |
+ | cudatoolkit | 11.2.2 |
+ | cudnn | 8.1.0 |
  
+ 
+ 
+ 
+     
