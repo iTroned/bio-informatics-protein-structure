@@ -18,6 +18,8 @@ Unfortunately, the program will perform different on different systems. When lau
 ## Download and use the program:
 Installation guide: https://www.youtube.com/watch?v=_ZsMhehQh8I
 
+[![Installation Guide](https://img.youtube.com/vi/_ZsMhehQh8I/0.jpg)](https://www.youtube.com/watch?v=_ZsMhehQh8I)
+
 You can download the software here: https://github.com/iTroned/bio-informatics-protein-structure/releases/tag/v1.0.0
 
 To use the program is very straight forward:
