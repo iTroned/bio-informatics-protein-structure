@@ -29,3 +29,25 @@ To use the program is very straight forward:
 3. Press predict once, to freeze the program and make it ready for predictions.
 4. Paste in sequences in the text box, and press predict.
 5. Output is the secondary structure prediction: C: Random coil, E: Beta sheet and H: Alpha Helix.
+
+## Access the notebook:
+1. To access the notebook files it is recommended to set up your own dependency.
+2. Download the ZIP file from Github.
+3. Install anaconda: https://docs.anaconda.com/free/anaconda/install/windows/
+4. Open conda:
+5. conda create -n nyenv python=3.9
+6. conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+7. python -m pip install "tensorflow<2.11"
+8. Install all the dependencies in the list below:
+9. Open VSCode through conda by writing code:
+   
+   ![image](https://github.com/iTroned/bio-informatics-protein-structure/assets/73116702/b23c45a4-786f-4e3b-99e7-39a63c0e2c9d)
+10. Ctrl + Shift + P -> Open User Settings (JSON)
+    
+   ![image](https://github.com/iTroned/bio-informatics-protein-structure/assets/73116702/d6b9008e-af32-4ab4-b45b-a480a57903db)
+   
+11. Add this command at the bottom of the settings and save it: "terminal.integrated.inheritEnv": false
+
+![image](https://github.com/iTroned/bio-informatics-protein-structure/assets/73116702/3833a937-352a-4eba-81d3-07886f2c518a)
+
+ 
